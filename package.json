@@ -1,0 +1,36 @@
+{
+  "name": "yuanjingpersonalsite",
+  "version": "1.0.0",
+  "description": "My personal site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 8080",
+    "lint": "next lint",
+    "deploy": "npm run build && gcloud app deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanjingxue1987/YuanjingPersonalSIte.git"
+  },
+  "keywords": [
+    "PersonalSite"
+  ],
+  "author": "Yuanjing Xue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuanjingxue1987/YuanjingPersonalSIte/issues"
+  },
+  "homepage": "https://github.com/yuanjingxue1987/YuanjingPersonalSIte#readme",
+  "dependencies": {
+    "next": "^12.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "@types/react": "^17.0.39",
+    "typescript": "^4.5.5"
+  }
+}
